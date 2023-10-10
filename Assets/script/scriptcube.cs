@@ -13,9 +13,9 @@ public class ScriptCube : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        print ("test 0 script cube");
-        print ("test 1 script cube");
-        print ("test 2 script cube");
+        print ("ma couleur est " + coleur);
+        print ("mon intensité est :" + intensité);
+        print ("mon voltage  est : " + volt);
     }
 
     // Update is called once per frame
