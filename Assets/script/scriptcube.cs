@@ -6,12 +6,10 @@ public class ScriptCube : MonoBehaviour
 {
 
     // variables 
-
-
-    string coleur = "Rouge";
-    int intensité = 100;
-    bool connect = true;
-    float volt = 200.121f;
+    public string coleur = "Rouge";
+    public int intensité = 100;
+    public bool connect = true;
+    public float volt = 200.121f;
     // Start is called before the first frame update
     void Start()
     {
