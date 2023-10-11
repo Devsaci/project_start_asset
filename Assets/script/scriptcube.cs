@@ -13,8 +13,7 @@ public class ScriptCube : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-       rend.material.color = Color.red;
-       rd.useGravity =true;
+      
     }
 
     // Update is called once per frame
@@ -28,7 +27,8 @@ public class ScriptCube : MonoBehaviour
 /// </summary>
 private void OnMouseUp()
 {
-    
+    rend.material.color = new Color(0,0,1);
+    rd.useGravity =true;  
 }
 
 }
