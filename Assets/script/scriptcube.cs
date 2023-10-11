@@ -7,7 +7,8 @@ public class ScriptCube : MonoBehaviour
 
     // variables 
     public Rigidbody rd;
-    public Renderer rend;
+    public Renderer rend
+    float speed = 3;
    
   
     // Start is called before the first frame update
@@ -21,7 +22,7 @@ public class ScriptCube : MonoBehaviour
     {
      if(Input.GetKey(KeyCode.UpArrow))
      {
-        transform.Translate(Vector3.forward * Time.deltaTime);
+        transform.Translate(Vector3.forward * Time.deltaTime * speed);
      }
     }
 
