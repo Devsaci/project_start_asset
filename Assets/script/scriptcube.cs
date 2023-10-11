@@ -6,20 +6,29 @@ public class ScriptCube : MonoBehaviour
 {
 
     // variables 
-    public Color col;
     public Rigidbody rd;
     public Renderer rend;
+   
   
     // Start is called before the first frame update
     void Start()
     {
-       rend.material.color = col;
+       rend.material.color = Color.red;
        rd.useGravity =true;
     }
 
     // Update is called once per frame
     void Update()
     {
-      transform.Translate(new Vector3(-1,0,0));
+     
     }
+
+/// <summary>
+/// OnMouseUp is called when the user has released the mouse button.
+/// </summary>
+private void OnMouseUp()
+{
+    
+}
+
 }
