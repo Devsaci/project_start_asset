@@ -53,9 +53,7 @@ public class ScriptCube : MonoBehaviour
         /// </summary>
     private void OnTriggerEnter(Collider other) 
     {
-       
         Destroy(other.gameObject);
-        
     }
 
 /// <summary>
