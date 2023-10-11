@@ -40,12 +40,17 @@ public class ScriptCube : MonoBehaviour
 
       if(Input.GetKeyDown(KeyCode.Space))
      {
-        
+         rd.AddForce(Vector3.up * 300);
      }
       if(Input.GetMouseButtonDown(1))
      {
        rd.AddForce(Vector3.up * 300);
      }
+    }
+
+
+    private void OnTriggerEnter(Collider other) {
+        
     }
 
 /// <summary>
