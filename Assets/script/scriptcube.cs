@@ -32,9 +32,9 @@ public class ScriptCube : MonoBehaviour
      {
         transform.Translate(Vector3.Left * Time.deltaTime * speed);
      }
-      if(Input.GetKey(KeyCode.UpArrow))
+      if(Input.GetKey(KeyCode.RightArrow))
      {
-        transform.Translate(Vector3.forward * Time.deltaTime * speed);
+        transform.Translate(Vector3.Right * Time.deltaTime * speed);
      }
     }
 
