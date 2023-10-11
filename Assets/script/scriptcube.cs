@@ -48,13 +48,13 @@ public class ScriptCube : MonoBehaviour
      }
     }
 
-
-    private void OnTriggerEnter(Collider other) 
-    {
         /// <summary>
         /// This function is called when the MonoBehaviour will be destroyed.
         /// </summary>
-        private void OnDestroy();
+    private void OnTriggerEnter(Collider other) 
+    {
+       
+        Destroy(other);
         
     }
 
