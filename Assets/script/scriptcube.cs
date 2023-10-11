@@ -19,7 +19,10 @@ public class ScriptCube : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-     
+     if(Input.GetKey(KeyCode.UpArrow))
+     {
+        transform.Translate(Vector3.forward)
+     }
     }
 
 /// <summary>
