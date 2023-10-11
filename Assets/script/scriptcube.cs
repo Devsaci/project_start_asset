@@ -24,6 +24,18 @@ public class ScriptCube : MonoBehaviour
      {
         transform.Translate(Vector3.forward * Time.deltaTime * speed);
      }
+     if(Input.GetKey(KeyCode.DownArrow))
+     {
+        transform.Translate(Vector3.back * Time.deltaTime * speed);
+     }
+      if(Input.GetKey(KeyCode.LeftArrow))
+     {
+        transform.Translate(Vector3.Left * Time.deltaTime * speed);
+     }
+      if(Input.GetKey(KeyCode.UpArrow))
+     {
+        transform.Translate(Vector3.forward * Time.deltaTime * speed);
+     }
     }
 
 /// <summary>
