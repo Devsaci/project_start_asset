@@ -22,8 +22,8 @@ public class ScriptCube : MonoBehaviour
     {
      if(Input.GetKey(KeyCode.UpArrow))
      {
-        //transform.Translate(Vector3.forward * Time.deltaTime * speed);
-        rd.velocity = (Vector3.forward * Time.deltaTime * speed * 50);
+        transform.Translate(Vector3.forward * Time.deltaTime * speed);
+        //rd.velocity = (Vector3.forward * Time.deltaTime * speed * 50);
      }
      if(Input.GetKey(KeyCode.DownArrow))
      {
@@ -44,7 +44,7 @@ public class ScriptCube : MonoBehaviour
      }
       if(Input.GetMouseButtonDown(1))
      {
-        transform.Translate(Vector3.up * 4);
+       rd.AddForce(Vector3.up * 300);
      }
     }
 
