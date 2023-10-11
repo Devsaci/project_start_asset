@@ -40,7 +40,7 @@ public class ScriptCube : MonoBehaviour
 
       if(Input.GetMouseButtonDown(1))
      {
-        transform.Translate(Vector3.up *  10*speed);
+        transform.Translate(Vector3.up * 4);
      }
     }
 
