@@ -27,7 +27,8 @@ public class ScriptCube : MonoBehaviour
 /// </summary>
 private void OnMouseUp()
 {
-    rend.material.color = new Color(0,0,1);
+    float val = Random.Range(0f,1f);
+    rend.material.color = new Color(val,val,val);
     rd.useGravity =true;  
 }
 
