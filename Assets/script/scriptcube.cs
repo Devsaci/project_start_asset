@@ -37,6 +37,11 @@ public class ScriptCube : MonoBehaviour
      {
         transform.Translate(Vector3.right * Time.deltaTime * speed);
      }
+
+      if(Input.GetMouseButtonDown(1))
+     {
+        transform.Translate(Vector3.up *  10*speed);
+     }
     }
 
 /// <summary>
