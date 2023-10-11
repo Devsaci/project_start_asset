@@ -6,15 +6,14 @@ public class ScriptCube : MonoBehaviour
 {
 
     // variables 
-    public Rigidbody rb ;
+    public Color col;
+    public Rigidbody rd;
     public Renderer rend;
   
     // Start is called before the first frame update
     void Start()
     {
-        // print ("ma couleur est " + coleur);
-        // print ("mon intensité est :" + intensité);
-        // print ("mon voltage  est : " + volt);
+       rend.material.color = col;
     }
 
     // Update is called once per frame
