@@ -21,7 +21,7 @@ public class ScriptCube : MonoBehaviour
     {
      if(Input.GetKey(KeyCode.UpArrow))
      {
-        transform.Translate(Vector3.forward)
+        transform.Translate(Vector3.forward * Time.deltaTime);
      }
     }
 
