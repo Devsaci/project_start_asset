@@ -7,7 +7,7 @@ public class ScriptCube : MonoBehaviour
 
     // variables 
     public Rigidbody rd;
-    public Renderer rend
+    public Renderer rend;
     float speed = 3;
    
   
@@ -22,7 +22,8 @@ public class ScriptCube : MonoBehaviour
     {
      if(Input.GetKey(KeyCode.UpArrow))
      {
-        transform.Translate(Vector3.forward * Time.deltaTime * speed);
+        //transform.Translate(Vector3.forward * Time.deltaTime * speed);
+        rd.velocity = (Vector3.forward * Time.deltaTime * speed);
      }
      if(Input.GetKey(KeyCode.DownArrow))
      {
@@ -30,11 +31,11 @@ public class ScriptCube : MonoBehaviour
      }
       if(Input.GetKey(KeyCode.LeftArrow))
      {
-        transform.Translate(Vector3.Left * Time.deltaTime * speed);
+        transform.Translate(Vector3.left * Time.deltaTime * speed);
      }
       if(Input.GetKey(KeyCode.RightArrow))
      {
-        transform.Translate(Vector3.Right * Time.deltaTime * speed);
+        transform.Translate(Vector3.right * Time.deltaTime * speed);
      }
     }
 
