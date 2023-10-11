@@ -14,6 +14,7 @@ public class ScriptCube : MonoBehaviour
     void Start()
     {
        rend.material.color = col;
+       rd.useGravity =true;
     }
 
     // Update is called once per frame
