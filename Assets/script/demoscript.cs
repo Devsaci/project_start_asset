@@ -2,8 +2,12 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class c#unitydemo : MonoBehaviour
+public class demoscript : MonoBehaviour
 {
+
+
+    public string col;
+    public int Vol;
     // Start is called before the first frame update
     void Start()
     {
