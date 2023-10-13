@@ -12,7 +12,8 @@ public class demoscript : MonoBehaviour
     void Start()
     {
         print("script 1");
-                Debug.Log("message  : " + gameObject.name);
+        Debug.Log("message  : " + gameObject.name);
+        gameObject.name = "MonCube";
         gameObject.SetActive(false);
         /* if (Input.GetMouseButtonDown(1))
          {
