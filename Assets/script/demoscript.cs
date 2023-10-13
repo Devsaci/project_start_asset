@@ -11,13 +11,14 @@ public class demoscript : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        print("script 1");
-        print("Script 2");
+       print("script 1");
+       print("Script 2");
+        Debug.Log("message  : " + gameObject.name);
     }
 
     // Update is called once per frame
     void Update()
     {
-        
+       // print("script 1");
     }
 }
