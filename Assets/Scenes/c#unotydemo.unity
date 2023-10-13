@@ -333,7 +333,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f69123011db994641969474a262756fb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  age: 100
+  age: 20
 --- !u!1 &1743112627
 GameObject:
   m_ObjectHideFlags: 0
