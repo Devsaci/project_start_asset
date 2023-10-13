@@ -11,16 +11,19 @@ public class demoscript : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        print("script 1");
+        print("################script ########################");
         Debug.Log("message  : " + gameObject.name);
         gameObject.name = "MonCube";
-        gameObject.SetActive(false);
+        Debug.Log("message  : " + gameObject.name);
+
+
+        print("###################Script######################");
+        //gameObject.SetActive(true);
+        //gameObject.SetActive(false);
         /* if (Input.GetMouseButtonDown(1))
          {
              rd.gameObject.SetActive(false);
          }*/
-        print("Script 2");
-        //gameObject.SetActive(true);
 
     }
 
