@@ -11,6 +11,10 @@ public class Tableaux : MonoBehaviour
     void Start()
     {
         tab1[3] = 1000;
+        for (int i = 0; i < tab1.Length; i++) 
+        {
+            print(tab1[i]);
+        }
     }
 
     // Update is called once per frame
