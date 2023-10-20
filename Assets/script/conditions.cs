@@ -18,7 +18,7 @@ public class conditions : MonoBehaviour
         {
             mat.color = Color.blue;
         }
-        else if (chaleur >= 0f && chaleur <= 1f)
+        else if (chaleur >= 0f && chaleur < 1f)
         {
             mat.color = Color.white;
         }
