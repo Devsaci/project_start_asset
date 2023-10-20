@@ -330,13 +330,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 1548452355}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f69123011db994641969474a262756fb, type: 3}
+  m_Script: {fileID: 11500000, guid: fddec9fd5be713343ae56edcad20d876, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  age: 20
-  phrase: 5
-  color: {r: 0.26694393, g: 1, b: 0, a: 1}
+  exemple: 0
   mat: {fileID: 2100000, guid: e7c56bcd961f6e24bab5544c6f9416d1, type: 2}
+  chaleur: 3
 --- !u!1 &1743112627
 GameObject:
   m_ObjectHideFlags: 0
