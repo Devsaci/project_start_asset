@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class Tableaux : MonoBehaviour
 {
+    public int[] tab1;
 
 
     // Start is called before the first frame update
