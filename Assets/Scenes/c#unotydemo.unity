@@ -333,9 +333,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fddec9fd5be713343ae56edcad20d876, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  exemple: 0
+  H2O: 1
+  R_OH: 0
   mat: {fileID: 2100000, guid: e7c56bcd961f6e24bab5544c6f9416d1, type: 2}
-  chaleur: 3
+  chaleur: 1
 --- !u!1 &1743112627
 GameObject:
   m_ObjectHideFlags: 0

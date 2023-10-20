@@ -5,46 +5,33 @@ using UnityEngine;
 public class conditions : MonoBehaviour
 
 {
-    public bool exemple;
+    public bool H2O;
+    public bool R_OH;
     public Material mat;
-    //public Color color = Color.cyan;
-    public int chaleur;
+    public float chaleur;
 
     // Start is called before the first frame update
     void Start()
     {
 
-
-        if (chaleur < 0)
+        if (H2O == true && chaleur < 0f)
         {
             mat.color = Color.blue;
         }
-        else if (chaleur > 10)
+        else if (chaleur >= 0f && chaleur <= 1f)
+        {
+            mat.color = Color.white;
+        }
+        else
         {
             mat.color = Color.red;
         }
-       /* else
-        {
-            mat.color = Color.white;
-        }*/
-
-
-
-        /*
-                if (exemple) 
-                { 
-                    mat.color = Color.red; 
-                }
-                else 
-                { 
-                    mat.color = Color.blue; 
-                }*/
 
     }
 
     // Update is called once per frame
     void Update()
     {
-        
+
     }
 }
